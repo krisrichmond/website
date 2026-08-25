@@ -1644,3 +1644,10 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+#header .logo {
+    display: none;
+}
+
+#header > *:before {
+    display: none;
+}
