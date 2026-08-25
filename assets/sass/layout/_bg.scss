@@ -65,4 +65,11 @@
 				background-color: _palette(bg-alt);
 			}
 		}
+
+		@include breakpoint('<=medium') {
+			&:after {
+				background-color: _palette(bg);
+				background-image: none;
+			}
+		}
 	}

@@ -1180,6 +1180,15 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
+		@media screen and (max-width: 980px) {
+
+			#bg:after {
+				background-color: #0A3600;
+				background-image: none;
+			}
+
+		}
+
 /* Wrapper */
 
 	#wrapper {
